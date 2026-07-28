@@ -27,6 +27,11 @@ run
 *.png
 *.gif
 
+# Vendored net.kyori:event-api replacement jars (see libs/vendor-repo/README.md) -
+# these must be committed, unlike other *.jar files, since the upstream artifact
+# is permanently unavailable and this is the only copy the build can resolve.
+!/libs/vendor-repo/**/*.jar
+
 */build
 
 /impactor/config/impactor/translations/*.conf
