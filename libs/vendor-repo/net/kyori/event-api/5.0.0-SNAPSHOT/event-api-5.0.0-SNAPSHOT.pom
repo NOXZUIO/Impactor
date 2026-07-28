@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.kyori</groupId>
+  <artifactId>event-api</artifactId>
+  <version>5.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>event-api</name>
+  <description>
+    Vendored build of KyoriPowered/event (api module), compiled from source at
+    https://github.com/KyoriPowered/event because the original 5.0.0-SNAPSHOT
+    artifact is no longer available from any Maven repository (the upstream
+    project was archived on 2023-07-16 and its snapshot host has since been
+    decommissioned). See libs/vendor-repo/README.md for details.
+  </description>
+</project>
